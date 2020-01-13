@@ -1,0 +1,102 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fmSearch"
+    >
+
+    <TextView
+        android:id="@+id/tv_Daodien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Đạo diễn : "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_NDDaoDien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Patty Jenkins "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/tv_Daodien"
+        />
+
+    <TextView
+        android:id="@+id/tv_Nation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:text="Quốc Gia : "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:layout_below="@+id/tv_Daodien"
+        />
+
+    <TextView
+        android:id="@+id/tv_QuocGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Mỹ "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/tv_Nation"
+        android:layout_below="@+id/tv_Daodien"
+        />
+
+    <TextView
+        android:id="@+id/tv_NgayChieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Ngày Phát Hành : "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:layout_below="@+id/tv_Nation"
+        />
+
+    <TextView
+        android:id="@+id/tv_NDNgayChieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="3/6/2020 "
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/tv_NgayChieu"
+        android:layout_below="@+id/tv_Nation"
+        />
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_NgayChieu"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:text="Nội dung :"
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:id="@+id/detail_movie_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:lineSpacingExtra="8dp"
+        android:text="et’s open Android Stundroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create ndroid Studio and create dio and create fresh project with a default template (such as EmptyActivity with androidx). Once project sync completed open the project app/build.gradle and add following dependencies"
+        android:textColor="@color/colorGray"
+        android:layout_below="@+id/tv_content"
+        />
+
+</RelativeLayout>

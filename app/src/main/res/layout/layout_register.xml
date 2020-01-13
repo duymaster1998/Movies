@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+        android:id="@+id/edt_hoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:backgroundTint="#fff"
+        android:hint="Họ Tên"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtGmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:backgroundTint="#fff"
+        android:hint="Gmail"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtpassRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:backgroundTint="#fff"
+        android:maxLines="1"
+        android:hint="Mật khẩu"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlue"
+        android:background="@drawable/btndangnhap"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+</LinearLayout>
